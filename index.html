@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   <!-- SEO Meta -->
-  <title>জিশান জাফরুল হাসান · ওয়েব ডিজাইনার ও ফ্রিল্যান্সার</title>
-  <meta name="description" content="জিশান জাফরুল হাসান: পেশাদার ওয়েব ডিজাইনার ও ফ্রিল্যান্সার। ৫+ বছরের অভিজ্ঞতা, গ্লাসমরফিজম, ডার্ক মোড পোর্টফোলিও।">
-  <meta name="keywords" content="ওয়েব ডিজাইনার, ইউআই/ইউএক্স, ফ্রিল্যান্সার, জিশান জাফরুল হাসান, গ্লাসমরফিজম">
-  <meta name="author" content="জিশান জাফরুল হাসান">
-  <!-- Google Font & Icons -->
+  <title>Zishan Zafrul Hasan · Web Designer & Freelancer</title>
+  <meta name="description" content="Zishan Zafrul Hasan: Professional Web Designer & Freelancer with 5+ years experience. Premium dark mode portfolio, glassmorphism, global clients.">
+  <meta name="keywords" content="Web Designer, UI/UX, Freelancer, Zishan Zafrul Hasan, Glassmorphism, Portfolio">
+  <meta name="author" content="Zishan Zafrul Hasan">
+  <!-- Google Font & Icons (Font Awesome) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <!-- EmailJS SDK -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -20,10 +20,10 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
     }
 
     body {
-      font-family: 'Inter', 'Hind Siliguri', sans-serif;
       color: #e0e4e9;
       line-height: 1.6;
       scroll-behavior: smooth;
@@ -32,7 +32,7 @@
       overflow-x: hidden;
     }
 
-    /* অ্যানিমেটেড গ্রেডিয়েন্ট ব্যাকগ্রাউন্ড */
+    /* Animated gradient background */
     .animated-bg {
       position: fixed;
       top: 0;
@@ -51,7 +51,7 @@
       100% { background-position: 0% 50%; }
     }
 
-    /* ফ্লোটিং পার্টিকেল অ্যানিমেশন */
+    /* Floating particles */
     .particles {
       position: fixed;
       top: 0;
@@ -86,7 +86,7 @@
       }
     }
 
-    /* গ্লাসমরফিজম */
+    /* Glassmorphism core */
     .glass-panel {
       background: rgba(20, 25, 30, 0.65);
       backdrop-filter: blur(12px) saturate(180%);
@@ -110,7 +110,7 @@
       transform: translateY(-4px);
     }
 
-    /* ইলেকট্রিক সায়ান */
+    /* Electric cyan accents */
     .cyan-text {
       color: #0ff;
       text-shadow: 0 0 8px rgba(0,255,255,0.3);
@@ -148,44 +148,33 @@
       color: #0ff;
     }
 
-    /* কন্টেইনার */
+    /* Container */
     .container {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 0 20px;
+      padding: 0 24px;
       position: relative;
       z-index: 1;
     }
 
     section {
-      margin: 80px 0;
+      margin: 100px 0;
     }
 
-    /* হেডিং */
+    /* Headings */
     h1, h2, h3 {
       font-weight: 600;
       letter-spacing: -0.02em;
     }
     h2 {
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
-      background: linear-gradient(to right, #fff, #0ff);
+      font-size: 2.8rem;
+      margin-bottom: 2.5rem;
+      background: linear-gradient(to right, #fff, #b0f0ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      position: relative;
-    }
-    h2::after {
-      content: '';
-      position: absolute;
-      bottom: -10px;
-      left: 0;
-      width: 60px;
-      height: 3px;
-      background: #0ff;
-      border-radius: 2px;
     }
 
-    /* হিরো সেকশন */
+    /* Hero Section */
     .hero {
       min-height: 100vh;
       display: flex;
@@ -216,28 +205,28 @@
       object-fit: cover;
     }
     .hero-content h1 {
-      font-size: 3rem;
-      line-height: 1.2;
-      background: linear-gradient(to right, #ffffff, #0ff, #ffffff);
+      font-size: 4.5rem;
+      line-height: 1.1;
+      background: linear-gradient(to right, #ffffff, #9ad9ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
     .hero-badge {
-      display: inline-block;
-      background: rgba(0,255,255,0.1);
+      background: rgba(0,255,255,0.05);
       border-left: 4px solid #0ff;
       padding: 0.5rem 1.5rem;
       border-radius: 40px;
-      margin-bottom: 1.5rem;
-      font-size: 1.1rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+      display: inline-block;
     }
 
-    /* স্ট্যাটস গ্রিড */
+    /* Stats counter */
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      gap: 24px;
       margin: 40px 0;
     }
     .stat-item {
@@ -245,46 +234,37 @@
       padding: 2rem 1rem;
     }
     .stat-number {
-      font-size: 2.8rem;
+      font-size: 3rem;
       font-weight: 700;
       color: #0ff;
       display: block;
-      line-height: 1.2;
     }
     .stat-label {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       color: #b0c7db;
     }
 
-    /* এক্সপার্টাইজ গ্রিড */
+    /* Expertise grid */
     .expertise-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
+      gap: 24px;
     }
     .expert-card {
-      padding: 2rem 1rem;
+      padding: 2rem 1.5rem;
       text-align: center;
     }
     .expert-card i {
       font-size: 2.5rem;
       color: #0ff;
-      margin-bottom: 1rem;
-    }
-    .expert-card h3 {
-      font-size: 1.3rem;
-      margin-bottom: 0.5rem;
-    }
-    .expert-card p {
-      font-size: 0.95rem;
-      color: #b0c7db;
+      margin-bottom: 1.5rem;
     }
 
-    /* প্রাইসিং গ্রিড */
+    /* Pricing grid */
     .pricing-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      gap: 24px;
     }
     .pricing-card {
       padding: 2.5rem 1.5rem;
@@ -293,7 +273,7 @@
       overflow: hidden;
     }
     .pricing-card.popular::before {
-      content: 'সেরা';
+      content: 'Best Seller';
       position: absolute;
       top: 20px;
       right: -30px;
@@ -304,15 +284,11 @@
       font-size: 0.9rem;
       font-weight: 600;
     }
-    .pricing-card h3 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-    }
     .price {
       font-size: 2.5rem;
       font-weight: 700;
       color: #0ff;
-      margin-bottom: 1.5rem;
+      margin: 1rem 0;
     }
     .price small {
       font-size: 1rem;
@@ -320,7 +296,7 @@
     }
     .features-list {
       list-style: none;
-      margin-bottom: 2rem;
+      margin: 1.5rem 0;
     }
     .features-list li {
       padding: 0.5rem 0;
@@ -329,10 +305,9 @@
     .features-list li i {
       color: #0ff;
       margin-right: 8px;
-      font-size: 0.9rem;
     }
 
-    /* বুকিং ক্যালেন্ডার */
+    /* Booking calendar simulation */
     .booking-section {
       background: rgba(15, 20, 26, 0.7);
       backdrop-filter: blur(12px);
@@ -411,67 +386,66 @@
       background: #0ff1;
     }
 
-    /* পোর্টফোলিও মেসনরি */
+    /* Portfolio masonry */
     .masonry-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
-      grid-auto-rows: 250px;
+      grid-auto-rows: 280px;
     }
     .masonry-item {
-      position: relative;
+      background: rgba(30, 40, 50, 0.7);
+      backdrop-filter: blur(6px);
       border-radius: 28px;
-      overflow: hidden;
-      cursor: pointer;
-    }
-    .masonry-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: 0.5s;
-    }
-    .masonry-item:hover img {
-      transform: scale(1.1);
-    }
-    .masonry-overlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-      padding: 20px;
-      color: white;
-      transform: translateY(100%);
+      border: 1px solid rgba(0,255,255,0.1);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: flex-end;
+      padding: 1.5rem;
       transition: 0.3s;
+      position: relative;
+      overflow: hidden;
     }
-    .masonry-item:hover .masonry-overlay {
-      transform: translateY(0);
+    .masonry-item span {
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(5px);
+      padding: 0.5rem 1rem;
+      border-radius: 40px;
+      font-size: 0.9rem;
+      color: white;
+      border: 1px solid #0ff6;
     }
-    .masonry-item:nth-child(2) { grid-row: span 2; }
-    .masonry-item:nth-child(5) { grid-row: span 2; }
+    /* For demo we use background images with placeholders; you can replace with actual project images */
+    .masonry-item:nth-child(1) { background-image: linear-gradient(145deg, #0a1a2a, #0a2a3a), url('https://placehold.co/800x1000/1a2a33/0ff?text=UI%20Project'); }
+    .masonry-item:nth-child(2) { background-image: linear-gradient(145deg, #102030, #0a2530), url('https://placehold.co/800x600/1f2f3a/0ff?text=Web%20App'); }
+    .masonry-item:nth-child(3) { background-image: linear-gradient(145deg, #0c1c28, #0c2a30), url('https://placehold.co/800x700/162e3a/0ff?text=Ecom'); }
+    .masonry-item:nth-child(4) { background-image: linear-gradient(145deg, #0e1e2c, #0e2838), url('https://placehold.co/800x900/1a2f40/0ff?text=Brand%20site'); }
+    .masonry-item:nth-child(5) { background-image: linear-gradient(145deg, #14242e, #0e2c38), url('https://placehold.co/800x500/1f3540/0ff?text=Dashboard'); }
+    .masonry-item:nth-child(6) { background-image: linear-gradient(145deg, #182a36, #122e3a), url('https://placehold.co/800x1100/163844/0ff?text=Mobile%20UX'); }
 
-    /* সোশ্যাল হাব */
+    /* Social hub */
     .social-section {
       text-align: center;
     }
     .social-circle {
       display: flex;
-      gap: 25px;
+      gap: 30px;
       justify-content: center;
       flex-wrap: wrap;
     }
     .social-circle a {
       background: rgba(30,40,55,0.7);
       backdrop-filter: blur(8px);
-      width: 70px;
-      height: 70px;
+      width: 75px;
+      height: 75px;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       border: 2px solid #0ff3;
       color: #0ff;
-      font-size: 1.8rem;
+      font-size: 2rem;
       transition: 0.25s;
       text-decoration: none;
     }
@@ -481,47 +455,46 @@
       box-shadow: 0 0 32px #0ff5;
     }
 
-    /* কন্টাক্ট ফর্ম */
+    /* Contact form */
     .contact-twin {
       display: grid;
       grid-template-columns: 1.2fr 0.8fr;
-      gap: 30px;
+      gap: 32px;
       background: rgba(15, 20, 26, 0.7);
       backdrop-filter: blur(12px);
       border-radius: 48px;
-      padding: 40px;
+      padding: 48px;
       border: 1px solid #0ff2;
     }
     .form-group {
-      margin-bottom: 20px;
+      margin-bottom: 24px;
     }
-    .form-group input, .form-group textarea, .form-group select {
+    .form-group input, .form-group textarea {
       width: 100%;
-      padding: 15px 20px;
+      padding: 18px 22px;
       background: rgba(10, 15, 22, 0.7);
       border: 1px solid #2f4050;
-      border-radius: 30px;
+      border-radius: 50px;
       font-size: 1rem;
       color: white;
       outline: none;
       transition: 0.2s;
-      font-family: inherit;
     }
     .form-group textarea {
-      border-radius: 25px;
+      border-radius: 32px;
       resize: vertical;
       min-height: 120px;
     }
-    .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+    .form-group input:focus, .form-group textarea:focus {
       border-color: #0ff;
       box-shadow: 0 0 18px #0ff3;
     }
     .whatsapp-block {
-      background: linear-gradient(145deg, #0a2a2a, #0a1a2a);
+      background: rgba(0, 255, 255, 0.03);
       border-radius: 42px;
       padding: 30px;
       text-align: center;
-      border: 2px dashed #0ff;
+      border: 1px dashed #0ff;
     }
     .whatsapp-block i {
       font-size: 4rem;
@@ -529,24 +502,24 @@
       margin-bottom: 1rem;
     }
     .phone-big {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: 600;
       color: #0ff;
       margin: 1rem 0;
       word-break: break-all;
     }
 
-    /* মেগা ফুটার */
+    /* Mega footer */
     .mega-footer {
       display: grid;
       grid-template-columns: 2fr 1fr 1.5fr;
-      gap: 40px;
-      background: rgba(8, 12, 18, 0.95);
+      gap: 48px;
+      background: rgba(8, 12, 18, 0.9);
       backdrop-filter: blur(10px);
       border-radius: 60px 60px 0 0;
-      padding: 60px 40px;
+      padding: 60px 48px;
       border-top: 1px solid #0ff3;
-      margin-top: 100px;
+      margin-top: 120px;
     }
     .footer-section h3, .footer-section h4 {
       color: #0ff;
@@ -583,10 +556,10 @@
       padding: 12px 25px;
     }
 
-    /* মোবাইল রেস্পন্সিভ */
+    /* Mobile responsive */
     @media (max-width: 1024px) {
-      h1 { font-size: 2.5rem; }
-      h2 { font-size: 2rem; }
+      h1 { font-size: 3.5rem; }
+      h2 { font-size: 2.2rem; }
       .expertise-grid { grid-template-columns: repeat(2, 1fr); }
       .pricing-grid { grid-template-columns: repeat(2, 1fr); }
       .masonry-grid { grid-template-columns: repeat(2, 1fr); }
@@ -594,46 +567,26 @@
     }
 
     @media (max-width: 768px) {
-      .container { padding: 0 15px; }
+      .container { padding: 0 20px; }
       section { margin: 60px 0; }
-      h1 { font-size: 2rem; }
-      h2 { font-size: 1.8rem; }
-      .hero { min-height: auto; padding: 60px 0; }
+      h1 { font-size: 2.8rem; }
+      h2 { font-size: 2rem; }
+      .hero { min-height: auto; }
       .profile-image { width: 140px; height: 140px; }
-      .stats-grid { grid-template-columns: 1fr; gap: 15px; }
-      .stat-item { padding: 1.5rem; }
+      .stats-grid { grid-template-columns: 1fr; }
       .expertise-grid { grid-template-columns: 1fr; }
       .pricing-grid { grid-template-columns: 1fr; }
-      .masonry-grid { 
-        grid-template-columns: 1fr;
-        grid-auto-rows: 200px;
-      }
-      .masonry-item:nth-child(2),
-      .masonry-item:nth-child(5) {
-        grid-row: span 1;
-      }
-      .contact-twin {
-        grid-template-columns: 1fr;
-        padding: 25px;
-      }
-      .mega-footer {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        padding: 40px 25px;
-      }
-      .social-circle a {
-        width: 55px;
-        height: 55px;
-        font-size: 1.5rem;
-      }
+      .masonry-grid { grid-template-columns: 1fr; grid-auto-rows: 200px; }
+      .contact-twin { grid-template-columns: 1fr; padding: 30px; }
+      .mega-footer { grid-template-columns: 1fr; gap: 30px; padding: 40px 25px; }
+      .social-circle a { width: 60px; height: 60px; font-size: 1.8rem; }
       .booking-section { padding: 1.5rem; }
       .calendar-grid { gap: 5px; }
-      .weekday { font-size: 0.9rem; }
       .time-slots { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 480px) {
-      .hero-content h1 { font-size: 1.8rem; }
+      h1 { font-size: 2.2rem; }
       .btn-cyan, .btn-outline-gray {
         padding: 0.6rem 1.5rem;
         font-size: 0.9rem;
@@ -641,42 +594,26 @@
         margin: 5px 0;
       }
       .hero-badge { font-size: 0.9rem; }
-      .stat-number { font-size: 2.2rem; }
+      .stat-number { font-size: 2.5rem; }
       .price { font-size: 2rem; }
     }
 
-    /* অ্যানিমেশন */
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
+    /* Animation */
     .fadeInUp {
       animation: fadeInUp 0.8s ease forwards;
     }
-
-    /* স্ক্রলবার কাস্টমাইজ */
-    ::-webkit-scrollbar {
-      width: 10px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #0a0c0f;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #0ff3;
-      border-radius: 5px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #0ff;
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
-    /* লোডিং অ্যানিমেশন */
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: #0a0c0f; }
+    ::-webkit-scrollbar-thumb { background: #0ff3; border-radius: 5px; }
+    ::-webkit-scrollbar-thumb:hover { background: #0ff; }
+
+    /* Loading spinner */
     .loading-spinner {
       display: inline-block;
       width: 20px;
@@ -686,83 +623,66 @@
       border-radius: 50%;
       animation: spin 1s linear infinite;
     }
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
+    @keyframes spin { to { transform: rotate(360deg); } }
   </style>
 </head>
 <body>
-  <!-- অ্যানিমেটেড ব্যাকগ্রাউন্ড -->
+  <!-- Animated background -->
   <div class="animated-bg"></div>
   
-  <!-- ফ্লোটিং পার্টিকেল -->
+  <!-- Floating particles -->
   <div class="particles" id="particles"></div>
 
   <div class="container">
-    <!-- হিরো সেকশন -->
-    <section class="hero">
-      <div class="glass-panel" style="padding: 3rem; width:100%;">
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="glass-panel" style="padding: 3.5rem; width:100%;">
         <div class="hero-content">
           <div class="profile-image">
-            <img src="https://iili.io/qdH3PTu.jpg" alt="জিশান জাফরুল হাসান">
+            <img src="https://iili.io/qdH3PTu.jpg" alt="Zishan Zafrul Hasan">
           </div>
           <div class="hero-badge">
-            <i class="fas fa-map-marker-alt cyan-text"></i> ফ্রিল্যান্সার · গ্লোবাল প্ল্যাটফর্ম
+            <i class="fas fa-map-marker-alt cyan-text"></i> Freelancer · Global Platforms
           </div>
-          <h1>জিশান জাফরুল হাসান<br>ডিজিটাল মাষ্টারপিস নির্মাতা</h1>
-          <p style="font-size: 1.3rem; color: #b0c7db; margin-bottom: 2rem;">
-            পেশাদার ওয়েব ডিজাইনার · ৫+ বছর অভিজ্ঞতা
-          </p>
-          <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-            <button class="btn-cyan" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
-              <i class="fas fa-briefcase"></i> হায়ার মি
-            </button>
-            <button class="btn-outline-gray" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">
-              <i class="fas fa-eye"></i> কাজ দেখুন
-            </button>
+          <h1>Zishan Zafrul Hasan:<br>Crafting Digital Masterpieces</h1>
+          <p style="font-size: 1.4rem; color: #b0c7db; margin-bottom: 2.5rem;">Professional Web Designer · 5+ years shaping experiences</p>
+          <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+            <button class="btn-cyan" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Hire Me</button>
+            <button class="btn-outline-gray" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">View Work</button>
           </div>
+          <div style="margin-top: 30px;"><i class="fas fa-graduation-cap" style="color:#0ff"></i> Studied at Bhawlagonj Biggan School and College</div>
         </div>
       </div>
     </section>
 
-    <!-- আবাউট সেকশন -->
+    <!-- About + Stats -->
     <section id="about">
-      <div class="glass-card" style="padding: 2.5rem;">
-        <h2>আমার সম্পর্কে</h2>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center;">
-          <div>
-            <p style="font-size: 1.2rem; margin-bottom: 1rem;">
-              <i class="fas fa-quote-right cyan-text"></i>
-              আমি জিশান জাফরুল হাসান, পেশাদার ওয়েব ডিজাইনার ও ফ্রিল্যান্সার। 
-              গত <span class="cyan-text">৫ বছর</span> ধরে ওয়েব ডিজাইন ও ডেভেলপমেন্টে কাজ করছি।
-            </p>
-            <p style="margin-bottom: 1rem;">
-              <i class="fas fa-graduation-cap cyan-text"></i> 
-              শিক্ষা: ভাওয়ালগঞ্জ বিজ্ঞান স্কুল এন্ড কলেজ
-            </p>
-            <p>
-              <i class="fas fa-globe cyan-text"></i> 
-              বিশ্বের বিভিন্ন প্রান্তের ক্লায়েন্টদের সাথে কাজ করার অভিজ্ঞতা
-            </p>
-          </div>
-          <div class="stats-grid" style="margin:0;">
-            <div class="stat-item glass-card">
-              <span class="stat-number" data-target="150">150+</span>
-              <span class="stat-label">প্রকল্প</span>
-            </div>
-            <div class="stat-item glass-card">
-              <span class="stat-number" data-target="5">৫+</span>
-              <span class="stat-label">বছর অভিজ্ঞতা</span>
-            </div>
-            <div class="stat-item glass-card">
-              <span class="stat-number" data-target="32">৩২+</span>
-              <span class="stat-label">দেশের ক্লায়েন্ট</span>
-            </div>
-          </div>
+      <div class="glass-card" style="padding: 3rem;">
+        <h2>About Zishan</h2>
+        <p style="font-size: 1.2rem; max-width: 800px;">With <strong>5 years of experience</strong> in web design & development, I blend minimal aesthetics with robust functionality. Currently a student at Bhawlagonj Biggan School and College, I've collaborated with global clients to deliver future-ready digital products. Obsessed with performance, glassmorphism, and electric cyan details.</p>
+      </div>
+      <!-- Success stats -->
+      <div class="stats-grid">
+        <div class="stat-item glass-card">
+          <span class="stat-number" data-target="150">150+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-item glass-card">
+          <span class="stat-number" data-target="5">5+ Years</span>
+          <span class="stat-label">Experience</span>
+        </div>
+        <div class="stat-item glass-card">
+          <span class="stat-number" data-target="32">32+</span>
+          <span class="stat-label">Global Clients</span>
         </div>
       </div>
     </section>
 
-    <!-- এক্সপার্টাইজ গ্রিড -->
+    <!-- Expertise Grid -->
     <section id="expertise">
-      <h2>আমার
+      <h2>⚡ Expertise</h2>
+      <div class="expertise-grid">
+        <div class="expert-card glass-card"><i class="fas fa-laptop-code"></i><h3>Web Design</h3><p>Modern & responsive designs</p></div>
+        <div class="expert-card glass-card"><i class="fas fa-pen-nib"></i><h3>UI/UX</h3><p>User-centered interfaces</p></div>
+        <div class="expert-card glass-card"><i class="fas fa-chart-line"></i><h3>SEO</h3><p>Search engine optimization</p></div>
+        <div class="expert-card glass-card"><i class="fas fa-mobile-alt"></i><h3>R
