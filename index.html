@@ -469,4 +469,62 @@
     </section>
 
     <!-- CONTACT + MAP & FORM -->
-    <sectio
+    <section id="contact" class="contact-section">
+      <div>
+        <h2 class="section-title">Contact Us</h2>
+        <p><i class="fas fa-map-marker-alt"></i> Bhawlagonj, Debiganj, Panchagarh, Bangladesh</p>
+        <p><i class="fas fa-phone-alt"></i> 01309132253</p>
+        <p><i class="fas fa-envelope"></i> info@tbmi.edu.bd</p>
+        <div style="margin-top:1rem;">
+          <h3>Send a Message</h3>
+          <form id="contactForm">
+            <div class="form-group"><input type="text" placeholder="Full Name" required></div>
+            <div class="form-group"><input type="email" placeholder="Email" required></div>
+            <div class="form-group"><input type="tel" placeholder="Phone"></div>
+            <div class="form-group"><textarea placeholder="Message" style="width:100%; padding:1rem; border-radius:1rem; border:1px solid #d0ddee;" rows="4"></textarea></div>
+            <button class="btn" type="button" onclick="alert('demo: message sent (demo)')">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="map-placeholder">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.123456789!2d88.445678!3d26.332211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e6a1b2c3d4e5f6%3A0x123456789abcdef!2sTechnical%20and%20Business%20Management%20Institute!5e0!3m2!1sen!2sbd!4v1671234567890!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container" style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:2rem;">
+        <div>
+          <h3>TBMI</h3>
+          <p>Technical & Business Management Institute, Bhawlagonj, Debiganj, Panchagarh, Bangladesh</p>
+          <p>&copy; 2026 TBMI. All rights reserved.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="#home">Home</a><br>
+          <a href="#about">About</a><br>
+          <a href="#departments">Departments</a><br>
+          <a href="#admission">Admission</a><br>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuToggle = document.getElementById('menuToggle');
+      const navLinks = document.getElementById('navLinks');
+      menuToggle.addEventListener('click', () => navLinks.classList.toggle('show'));
+    </script>
+  </main>
+</body>
+</html>
