@@ -521,7 +521,20 @@
       const menuToggle = document.getElementById('menuToggle');
       const navLinks = document.getElementById('navLinks');
       menuToggle.addEventListener('click', () => navLinks.classList.toggle('show'));
-    </script>
-  </main>
+
+      // EmailJS Integration
+emailjs.init("rUFcXvx4FuGlH0vzV");
+document.getElementById('contact-form').addEventListener('submit', function(e){
+  e.preventDefault();
+  emailjs.sendForm('service_dywb37i','template_bavgxcd',this)
+  .then(()=>{
+      document.getElementById('msg').innerText="Message sent successfully!";
+      this.reset();
+  }, (err)=>{
+      document.getElementById('msg').innerText="Error sending message!";
+      console.log(err);
+  });
+});
+</script>
 </body>
-  </html>
+</html>
